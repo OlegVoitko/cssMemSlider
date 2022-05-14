@@ -135,6 +135,13 @@ input{
     .wrapper{
         max-width: 27rem;
     }
+    .controls{        
+        flex-direction: column-reverse;
+        align-items: initial;
+    }
+    .buttons{
+        justify-content: center;
+    }
 }
 @media (max-height: 550px) {     
     .wrapper{
