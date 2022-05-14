@@ -10,8 +10,7 @@ body, html {
     height: 100vh;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(to right, rgb(0, 130, 69),rgb(0, 199, 89));
-    /* background-color:darkolivegreen; */
+    background-image: linear-gradient(to right, rgb(0, 130, 69),rgb(0, 199, 89));    
 }
 input{
     display: none;
@@ -115,10 +114,7 @@ input{
     }
     .buttons{
         justify-content: center;
-    }
-    /* .text{
-        font-size: 0.8rem;   
-    } */
+    }   
 }
 
 @media (max-height: 780px) {     
