@@ -65,11 +65,12 @@ input{
     width: 1rem;
     height: 1rem;      
     border-radius: 50%;
-    border: solid 0.1rem #ffffff;
-    background-color: #0c9bfa;    
+    border: solid 0.18rem #0057fa;
+    background-color: #0057fa;    
 }
 .labelButton:hover > div{
     background-color: #ffffff;
+    border: solid 0.18rem #ffffff;
 }
 
 #slide1:checked ~ .slider{
@@ -92,7 +93,7 @@ input{
 #slide3:checked ~ .controls > .buttons > #s3 > div,
 #slide4:checked ~ .controls > .buttons > #s4 > div,
 #slide5:checked ~ .controls > .buttons > #s5 > div {	
-	background-color: transparent;
+	background-color: transparent;    
 }
 
 #slide1:checked ~ .controls > .text > #text1,
@@ -105,6 +106,13 @@ input{
 	transform: translateX(0);
 	transition: 1.2s;
     height: auto;
+}
+#slide1:checked ~ .controls > .buttons > #s1:hover > div,
+#slide2:checked ~ .controls > .buttons > #s2:hover > div,
+#slide3:checked ~ .controls > .buttons > #s3:hover > div,
+#slide4:checked ~ .controls > .buttons > #s4:hover > div,
+#slide5:checked ~ .controls > .buttons > #s5:hover > div {
+	border: solid 0.18rem #ffffff;
 }
 
 @media (max-width: 678px) { 
